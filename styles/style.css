@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: aquamarine;
+}
+.dolor{
+    background-image: url("../imeges/jonah-brown-lN1-wyjEVHQ-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    filter: blur(3px); 
+    /* -webkit-filter: blur(3px); */
+
+}
+.elit{
+    background-color: rgb(0,0,0,0.4);
+    /* background-color: rgb(170, 163, 163); */
+    /* filter: blur(3px); */
+    
+    color: white;
+    font-weight: bold;
+    border: 1px solid  ;
+    border-radius:5px;
+    box-shadow: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 20px;
+
+}
+.roy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.roy,input{
+    margin:20px;
+    padding: 10px;
+    /* width: 60%; */
+    /* background-color: rgb(0,0,0,0.5); */
+    /* box-shadow:inset -5px -5px rgb(0,0,0,0.5); */
+    /* border-radius: 25px; */
+    /* border: none; */
+    /* outline: none; */
+}
