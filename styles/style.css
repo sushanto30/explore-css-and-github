@@ -4,7 +4,7 @@
 }
 
 h1{
-    color: aquamarine;
+    color:rgb(152, 247, 80);
 }
 .dolor{
     background-image: url("../imeges/jonah-brown-lN1-wyjEVHQ-unsplash.jpg");
@@ -32,21 +32,64 @@ h1{
     z-index: 2;
     width: 30%;
     padding: 20px;
-
+    width: 40%;
 }
 .roy{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+   
     
 }
 .roy,input{
     margin:20px;
     padding: 10px;
-    /* width: 60%; */
-    /* background-color: rgb(0,0,0,0.5); */
-    /* box-shadow:inset -5px -5px rgb(0,0,0,0.5); */
-    /* border-radius: 25px; */
-    /* border: none; */
-    /* outline: none; */
+}
+.Visit{
+    margin-top: 60px;
+    text-align: center; 
+    margin-bottom: 20px;
+   
+}
+.Visit,h1{
+    text-align: center;
+}
+
+.sit{
+    margin-top: 10px;
+    left: 30%;
+    right: 30%;
+     position: absolute;
+    /* border: 5px solid red; */
+    
+}
+.ear{
+    margin-bottom: 130px;
+ 
+}
+.bill{
+  
+    /* width: 20px; */
+    /* border: 3px solid blue; */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 5px rgb(205, 198, 198);
+}
+.bill,img{
+    width: 350px;
+}
+.cum{
+    /* margin-top: 20px; */
+    /* border: 5px solid red; */
+    /* padding: 20px; */
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.mets{
+    margin-top: 5px;
+    
+    display: flex;
+    justify-content: space-between;
 }
